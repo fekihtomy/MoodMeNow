@@ -96,3 +96,39 @@ Pour toute demande commerciale ou d’utilisation, veuillez contacter :
 Merci à Flutter, Firebase, et OpenAI pour rendre ce projet possible.
 
 ---
+
+## Liste des améliorations pour MoodMeNow
+
+1. **Gestion des erreurs & UX**
+   - Gestion robuste des erreurs API (OpenAI, Firebase)
+   - Indicateurs visuels clairs lors du chargement des données
+
+2. **Sécurité**
+   - Stockage sécurisé des clés API (variables d’environnement)
+   - Configuration stricte des règles de sécurité Firebase
+
+3. **Architecture & Code**
+   - Séparation claire de la logique métier via des providers dédiés
+   - Utilisation de modèles forts (ex : `freezed`, `json_serializable`) pour structurer les données
+
+4. **Tests**
+   - Ajout de tests unitaires et widget tests pour garantir la stabilité
+
+5. **Internationalisation (i18n)**
+   - Mise en place de la traduction multi-langues avec `intl`
+
+6. **Performance & optimisation**
+   - Mise en cache des résultats OpenAI pour éviter les appels répétitifs inutiles
+   - Optimisation UI et lazy loading pour meilleures performances
+
+7. **UI / UX**
+   - Amélioration visuelle avec animations et design émotionnel
+   - Accessibilité améliorée (contraste, taille police, navigation clavier)
+
+8. **Fonctionnalités supplémentaires**
+   - Profil utilisateur & historique des réponses
+   - Notifications pour rappels et motivation
+   - Personnalisation avancée des conseils
+
+9. **Documentation**
+   - Maintien d’une documentation claire et à jour (README, commentaires, wiki)
